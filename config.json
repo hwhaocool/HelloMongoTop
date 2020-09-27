@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "host": "replA/mongodb0.example.com.local:27017,mongodb1.example.com.local:27017",
+        "username": "hello",
+        "password": "hello",
+        "dbUri": "mongodb://hello:hello@mongodb0.example.com.local:27017,mongodb1.example.com.local:27017/?replicaSet=replA",
+        "database": "yellow",
+        "collection": "top_data",
+        "sleeptime": 20
+    },
+    "prod": {
+        "host": "",
+        "username": "",
+        "password": "",
+        "dbUri": "",
+        "database": "",
+        "collection": "",
+        "sleeptime": 20
+    }
+}
